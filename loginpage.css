@@ -1,0 +1,86 @@
+body{
+    background-color:#020516;
+}
+.login_box{
+    background-color: white;
+    height: 520px;
+    width: 400px;
+    margin-left: 34%;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+.login_box2{
+    padding: 5px 30px 20px 30px;
+}
+
+#firstH2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: NotoSansBold,sans-serif;
+    font-size: xx-large;
+}
+#firstP{
+    text-align: center;
+    font-size: 15px;
+    font-family: NotoSansBold,sans-serif;
+    color: rgba(0, 0, 0, 0.783);
+    
+}
+#fourImages{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    left: 15px;
+}
+#fourImages>div{
+    margin-right: 30px;
+    cursor: pointer;
+}
+#orDiv{
+    margin-left: 45%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 33px;
+    height: 30px;
+    align-items: center;
+    padding-bottom: 3px;
+    font-size: large;
+    background-color: whitesmoke;
+}
+#forLogin{
+    margin-top: 20px;
+    text-align: center;
+}
+#loginInput{
+    height: 45px;
+    font-family: NotoSansMedium,sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+#forLogin>button{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 5px;
+    height: 45px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+}
+#forLogin>h4{
+    font-family: NotoSansMedium,sans-serif;
+}
+#forLogin>h4>a{
+    color: blueviolet;
+    text-decoration: none;
+    font-family: NotoSansMedium,sans-serif;
+}
